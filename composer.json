@@ -1,5 +1,5 @@
 {
-    "name": "artisanry/commentable",
+    "name": "thanosalexander/laravel-commentable",
     "description": "Commentable Polymorphic Eloquent Models for for Laravel 5",
     "keywords": [
         "laravel",
@@ -8,11 +8,18 @@
         "Laravel Commentable"
     ],
     "license": "MPL-2.0",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@basecode.sh",
-        "homepage": "https://basecode.sh"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        },
+        {
+            "name": "Athanasios Alexandris",
+            "email": "thanosalexander@gmail.com",
+            "homepage": "https://thanosalexander.com"
+        }
+    ],
     "require": {
         "php": "^7.2",
         "illuminate/support": "^5.8|^6.0|^7.0|^8.0",
@@ -39,9 +46,7 @@
         "sort-packages": true
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        },
+
         "laravel": {
             "providers": [
                 "Artisanry\\Commentable\\CommentableServiceProvider"
